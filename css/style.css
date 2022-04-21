@@ -64,7 +64,6 @@ h2 {
     margin: 10px auto;
     max-width:950px ;
     display: flex;
-    border: 2px solid whitesmoke;
     justify-content: center;}
 
 .info_bloc {
@@ -76,8 +75,7 @@ h2 {
 .content_bloc{
     margin: 20px auto;
     width: 48%;
-    display: block;
-    border: 2px solid whitesmoke;    
+    display: block;    
     justify-content: center;
     align-items: center;}
 
