@@ -33,8 +33,7 @@ h2 {
     min-width: 600px;
     margin: 20px auto;
     padding: 24px;
-    display: block;
-    border: 5px solid whitesmoke;}
+    display: block;}
 
 #menu-bloc {
     max-height: 70px;
@@ -43,8 +42,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-    border: 2px solid whitesmoke;}
+    justify-content: center;}
 
 .menu{
     max-height: 20px;
@@ -56,8 +54,7 @@ h2 {
     padding: 5px;
     text-align: center;
     transition: 0.5s all;
-    transition-delay: 0s;
-    border: 2px solid whitesmoke;}
+    transition-delay: 0s;}
 
 .menu:hover {;
     flex:1 100px;       
@@ -74,7 +71,6 @@ h2 {
     margin: 10px auto;
     max-width:800px ;
     display: block;
-    border: 2px solid whitesmoke;
     text-align: center;}
 
 .content_bloc{
@@ -90,8 +86,7 @@ h2 {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;
-    border: 2px solid whitesmoke;}
+    align-items: center;}
 
 .text_bloc {
     max-width: 900px;
@@ -99,8 +94,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    border: 2px solid whitesmoke;}
+    align-items: center;}
 
 #contact_bloc{
     margin: 20px auto;
