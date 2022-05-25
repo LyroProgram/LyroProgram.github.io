@@ -92,6 +92,13 @@ h2 {
     justify-content: center;
     }
 
+p.pic_info{
+
+    font-size: 16px;
+    text-align: center;
+    align-self: center;
+}
+
 .picfull{
     overflow: hidden;
     max-width:99%;
@@ -104,13 +111,6 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;}
-
-p.pic_info{
-
-    font-size: 16px;
-    text-align: center;
-    align-self: center;
-}
 
 #contact_bloc{
     margin: 20px auto;
@@ -178,5 +178,64 @@ img.zoom: hover{
     margin: 12px;}
 
 @media screen and (max-width: 768px) {
-    width: 100%;
+    img{
+       width: 95%;
+       heigh: 100 px;
+    }
+    
+    .separators{
+    font-size: 25px;
+    font-weight: 700;}
+
+    a{
+    font-size: 14px;
+    text-decoration: none;
+    color:white;}
+
+    p{
+    font-size: 12px;
+    font-weight: bold;}
+
+    p.pic_info{
+
+    font-size: 12px;
+    text-align: center;
+    align-self: center;}
+
+    .primary_bloc {
+    max-width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    display: block;}
+
+    #menu-bloc {
+    max-height: 70px;
+    max-width: 70%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;}
+
+    .menu{
+    max-height: 20px;
+    max-width: 80%;
+    border-radius: 12px;
+    flex: 1 50px;
+    font-size: 14px;
+    text-align: center;
+    transition: 0.5s all;
+    transition-delay: 0s;}
+
+    .pic{
+    max-width:45%;
+    height: 10%;
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center; /* vertical */
+    justify-content: center;
+    }
 }   
