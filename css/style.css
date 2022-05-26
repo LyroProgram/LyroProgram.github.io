@@ -22,7 +22,7 @@ h2 {
     color: deepskyblue;}
 
 .background{
-    background-image: url(../imgs/background/back2.jpg);
+    background-image: url(../imgs/background/back4.jpg);
     background-attachment: fixed;
     background-position: absolute;
     background-repeat: repeat-y;
@@ -130,7 +130,11 @@ img:hover{
 
 img.zoom: hover{
     transition: 0,5s all;
-    scale: 1.2;
+    scale: 1.2;}
+
+.round{
+    border-radius: 150px;
+    border: 5px solid whitesmoke;
 }
 
 .info_bloc {
